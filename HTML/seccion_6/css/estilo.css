@@ -1,0 +1,42 @@
+table {
+    width: 100%;
+}
+
+table,td,th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    /*border-spacing: 5px;*/
+}
+
+caption {
+    color: red;
+    font-family: Trocchi,
+        "Lucida Sans", Arial, sans-serif;
+    font-size: 45px;
+    line-height: 70px;
+}
+
+th {
+    color: #f1faee;
+    background-color: #1d3557;
+}
+
+/*Para los renglones pares*/
+tr:nth-child(even) {
+    background-color: #f1faee;
+}
+
+/*Para los renglones impares*/
+tr:nth-child(odd) {
+    background-color: #a8dadc;
+}
+
+/*
+td{
+    text-align: center;
+}
+
+th{
+    text-align: center;
+}*/

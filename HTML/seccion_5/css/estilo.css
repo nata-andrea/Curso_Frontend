@@ -1,0 +1,26 @@
+h1{
+    color: #073b4c;
+    text-align: center;
+}
+a:link{
+    color: #118ab2;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #ffd166;
+    text-decoration: none; /* Para quitar subrrayado*/
+}
+
+/*Para que cambie e  olor cuando nos ponemos encima el link*/
+a:hover{
+    color: #06d6a0;
+    text-decoration: underline; /*Para subrrayar*/
+}
+
+/*Para que cambie de color al darle click*/
+a:active{
+    color: #073b4c;
+    text-decoration: underline;
+
+}
