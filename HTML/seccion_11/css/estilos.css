@@ -1,0 +1,38 @@
+
+/*
+1. Para aplicar algo a toda la página html (selector universal)
+*{
+    background-color: ghostwhite;
+    color: blueviolet;
+}
+
+
+2. los id son para elementos únicos, que no se repiten
+#titulo{
+    color: crimson;
+    text-align: center;
+}
+
+3. Para las clases
+.centrar{
+    text-align: center;
+}
+
+.texto-grande{
+    font-size: 20px;
+}
+*/
+
+/* 4. Aplicar los mismos estilos a varios elementos html
+h1,h2,p,div{
+    text-align: center;
+    color: crimson;
+    
+}*/
+
+/*Para las subclases*/
+p.centrar{
+    text-align: center;
+}
+
+

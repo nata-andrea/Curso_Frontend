@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+}
+
+.rosa{
+    border: 10px solid firebrick;
+}
+
+.rojo{
+     border: 10px dashed rgb(255, 105, 180);
+}
+
+.gold{
+    /*border:10px double #ffd700;*/
+    border: 10px dotted hsl(201, 100%, 50%);
+}
+
+
+
+
