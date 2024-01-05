@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+.estatico{
+    position: static;
+    max-width: 50%;
+    border: 3px solid firebrick;
+    margin: auto;
+}
+
+.relativo{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    max-width: 50%;
+    border: 3px solid firebrick;
+    margin: auto;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    right: 0;
+    border: 3px solid firebrick;
+    margin: auto;
+}

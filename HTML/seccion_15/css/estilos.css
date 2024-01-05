@@ -1,0 +1,15 @@
+body{
+    /*background-color: dodgerblue;
+    background-image: url("/img/fondo.png");
+    background-repeat: no-repeat;
+    background-position: right top;*/
+    background: dodgerblue url("/img/fondo.png") no-repeat right top; /*resume todo*/
+    color: cornsilk;
+    background-attachment: fixed;/*La imagen de fondo sigue al scroll*/
+    /*background-attachment: scroll; La imagen de fondo no sigue el scroll*/
+}
+h1{
+    text-align: center;
+    background-color: dodgerblue;
+    /*height: 1000px;*/
+}

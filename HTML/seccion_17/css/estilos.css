@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia&family=Roboto&display=swap');
+
+
+h1{
+    color: #ef476f;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da;
+    font-family: Sofia, cursive;
+}
+.caja{
+    padding: 5px;
+    width: 40%;
+    height: 80px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+
+}
+.caja.serif{
+    background-color: #5a189a;
+}
+
+.fuente_time{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-variant: small-caps; /*mayusculas, primera letra mas grande*/
+    /*font-size: 1.2em; /*1 em=16px*/
+    font-size: 3vw; /*Fuente responsiva*/
+
+    /*Para todo en el atributo font
+    font: italic small-caps bolder 20px Roboto, sans-serif;*/
+
+}
+

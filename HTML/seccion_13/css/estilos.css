@@ -1,0 +1,48 @@
+/**{
+    margin: 0;
+    padding: 0;
+}*/
+
+h1{
+    text-align: center;
+    color: #e63956;
+}
+div{
+    padding: 10px 5px 15px 3px; /*es transparente*/
+    border: 1px solid #457b9d;
+    margin-left: 100px; /*Es transparente*/
+    background-color: #f1faee;
+    max-width: 300px;  /*ocupa el % el ancho disponible*/
+    /*width: 300px;*/
+    /*outline: 10px solid #a8dadc; va entre el amrgin y el borde*/ 
+    /*se puede aplicar a bottom,left,rigth*/ 
+    /*outline-offset: 10px;Separación entre en outline y el borde
+    solamente es un valor*/
+    box-sizing: border-box; /*incluye el tamañ del padding*/
+
+}
+
+p.interno{
+    margin: inherit; /*Para heredar un valor de la clase padre div*/
+
+}
+
+div.intento1{
+    padding: 10px 5px 15px 3px; 
+    border: 1px solid #457b9d;
+    margin: 30px; 
+    background-color: #f1faee;
+    max-width: 300px; 
+    box-sizing: border-box;
+
+}
+
+div.intento2{
+    padding: 10px 5px 15px 3px; 
+    border: 1px solid #457b9d;
+    margin: 20px; 
+    background-color: #f1faee;
+    max-width: 300px; 
+    box-sizing: border-box;
+
+}
